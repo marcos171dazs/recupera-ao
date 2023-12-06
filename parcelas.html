@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Crediário</title>
+</head>
+<body>
+    <img src="img/Credito.jpg" alt="Credito" class="normal">
+    <h1>Cálculo das Parcelas</h1>
+    <form>
+        <p>Valor:
+            <input type="number" id="inValor" min="0" step="0.01" required>
+        </p>
+        <p>Número de Parcelas
+            <input type="number" id="inParcela" min="1" step="1" required>
+                </p>
+        <input type="submit" value="Valor das Parcelas">
+    </form>
+    <pre></pre>
+    <script src="parcelas.js"></script>
+</body>
+</html>
